@@ -22,6 +22,7 @@ def start(word):
             if word[i] == inp:
                 empty[i] = inp
         if "".join(empty)==word:
+            print("".join(empty))
             print("YOU WIN!!")
             return
         start(word)
