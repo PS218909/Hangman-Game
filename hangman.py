@@ -7,7 +7,6 @@ if "" in  words:
 word = random.choice(words)
 empty = ["_"]*len(word)
 used = []
-print(word)
 print(f"you have {5-len(CHANCE)} left")
 def start(word):
     print(" ".join(empty))
